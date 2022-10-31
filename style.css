@@ -161,3 +161,12 @@ header ul {
   color: #F9FAF8;
   border-radius: 10px;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 24px;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 12px;
+}

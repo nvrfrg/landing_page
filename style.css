@@ -126,3 +126,38 @@ header ul {
 .container {
   width: 80%;
 }
+
+/* Call */
+.call {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  padding: 30px 60px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action h3 {
+  margin: 0;
+  color: #F9FAF8;
+}
+
+.action p {
+  color: #E5E7EB;
+  margin: 0;
+}
+
+.action button {
+  padding: 4px 22px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 10px;
+}

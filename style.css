@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+/* Hero */
+.hero {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-size: 24px;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+
+header ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+  color: #E5E7EB;
+  font-size: 18px;
+}

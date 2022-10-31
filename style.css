@@ -5,7 +5,8 @@ body {
 .hero {
   background-color: #1F2937;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -30,3 +31,45 @@ header ul {
   color: #E5E7EB;
   font-size: 18px;
 }
+
+.content {
+  width: 80%;
+  display: flex;
+  padding: 60px 0;
+}
+
+.content div {
+  flex: 1;
+}
+
+.content h1 {
+  margin: 8px 0 ;
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.content p {
+  margin: 8px 0;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.content button {
+  padding: 4px 22px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 10px;
+  border: none;
+}
+
+.content .left {
+  padding-right: 50px;
+}
+.content .right {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
